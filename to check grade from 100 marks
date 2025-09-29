@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+    int x;
+    printf("marks = ");
+    scanf("%d",&x);
+    if(x>=90){
+        printf("your obtained A+");
+    }
+    else if(x>=80){
+        printf("your obtained A");
+    }
+    else if(x>=70){
+        printf("your obtained B+");
+    }
+    else if(x>=60){
+        printf("your obtained B");
+    }
+    else if(x>=50){
+        printf("your obtained C");
+    }
+    else if(x<50){
+        printf("your obtained F");
+    }
+    return 0;
+}
