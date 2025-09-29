@@ -1,0 +1,13 @@
+// programm to check vowel
+#include<stdio.h>
+int main(){
+    char c;
+    printf("input a letter , ");
+    scanf("%c",&c);
+    if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'){
+        printf("Its a vowel");
+    }
+    else{
+        printf("Its a consonent");
+    }
+    return 0;
