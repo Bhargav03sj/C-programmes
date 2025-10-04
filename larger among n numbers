@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
-    int n,i,num,max=0;
+    int n,i,num,max=INT_MIN;
     printf("total numbers = ");
     scanf("%d",&n);
     for(i=1;i<=n;i++){
@@ -8,7 +9,7 @@ int main(){
         scanf("%d",&num);
         if(num>max){
         
-        max=num;}
+            max=num;}
     }
     printf("largest no. is %d",max);
 
