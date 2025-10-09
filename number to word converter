@@ -57,7 +57,10 @@ int main()
             }
         rev=rev/10;
     }
+        for (int i = 1; i<= count; i++)
+        {
+            printf("Zero");
+        }
     }
-  
     return 0;
 }
