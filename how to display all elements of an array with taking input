@@ -3,7 +3,7 @@ int main(){
      int stu[5],i;
      printf("Enter students roll no. = ");
 
-     for(i=0;i<=5;i++)
+     for(i=0;i<5;i++)
      {
     scanf("%d",&stu[i]);
      }
