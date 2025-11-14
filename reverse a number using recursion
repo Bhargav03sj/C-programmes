@@ -1,0 +1,17 @@
+int reverse(int n){
+    static int rev=0;
+    if(n==0){
+        return rev;
+    }
+    else{
+        rev = rev*10+n%10;
+        return reverse(n/10);
+        }
+    }
+    int main(){
+        int x;
+    scanf("%d",&x);
+       printf("%d",reverse(x));
+    
+    return 0;
+    }
